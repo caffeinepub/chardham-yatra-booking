@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup using Outlet component, authentication flow, profile setup dialog, and theme provider integration.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including travel packages, bookings, user profiles, admin functions, and Stripe payment integration.",
+  "frontend/src/components/Header.tsx": "Responsive header component with navigation, authentication controls, and user dropdown menu with profile and admin access.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with branding and attribution link to caffeine.ai.",
+  "frontend/src/components/ProfileSetupDialog.tsx": "Modal dialog for first-time user profile creation requiring name, email, and phone number.",
+  "frontend/src/pages/HomePage.tsx": "Main landing page with hero section, search/filter controls, and grid display of travel packages with theme and price filtering using string enum values.",
+  "frontend/src/pages/PackageDetailsPage.tsx": "Detailed package view with image carousel, itinerary tabs, reviews, included services, and booking functionality with Stripe checkout using string enum values.",
+  "frontend/src/pages/MyBookingsPage.tsx": "User bookings dashboard displaying all user bookings with status badges and cancellation functionality using enum constants for comparison.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Success confirmation page displayed after successful Stripe payment with navigation to bookings.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Failure page displayed when Stripe payment fails with retry options.",
+  "frontend/src/pages/AdminPanel.tsx": "Protected admin dashboard with tabs for managing packages, bookings, payment statuses, and Stripe configuration using enum constants.",
+  "frontend/src/components/PackageFormDialog.tsx": "Modal form for creating and editing travel packages with all required fields and validation using ThemeType enum constants.",
+  "frontend/src/components/StripeConfigDialog.tsx": "Modal dialog for configuring Stripe payment settings including secret key and allowed countries.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized with blue primary colors for travel theme in both light and dark modes."
+}
